@@ -4,6 +4,10 @@ import "fmt"
 
 //! 数组是值类型
 
+/**
+ * [10]int 和 [20]int 是不同类型
+ */
+
 func printArray(arr [5]int) {
 	for _, v := range arr {
 		fmt.Println(v)
